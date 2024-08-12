@@ -1,7 +1,7 @@
 import React from 'react';
 import {
-  About, Blog, Contacts, Education,
-  Experience, Landing, Navbar, Projects, Skills
+  About, Contacts, Education,
+  Experience, Landing, Navbar, Skills
 } from '../components';
 import BackToTop from '../components/back-to-top/back-to-top';
 import ChangeTheme from '../components/change-theme/change-theme';
@@ -17,9 +17,9 @@ function HomePage({ blogs }) {
       <About />
       <Experience />
       <Skills />
-      <Projects />
+      
       <Education />
-      <Blog blogs={blogs} />
+    
       <Contacts />
     </>
   )
