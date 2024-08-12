@@ -4,14 +4,14 @@ export const experienceData = [
         company: 'Freelancing',
         jobtitle: 'Software Developer',
         startYear: 'Jan 2023',
-        endYear: 'Present'
+        endYear: 'July 2023'
     },
     {
         id: 2,
         company: 'Netpaq Business Systems Ltd',
-        jobtitle: 'Intern',
+        jobtitle: 'Junior Software Developer',
         startYear: 'Jun 2022',
-        endYear: 'Dec 2022'
+        endYear: 'Dec 2023'
     },
     {
         id: 3,
