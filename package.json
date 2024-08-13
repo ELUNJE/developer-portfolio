@@ -4,8 +4,11 @@
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
-    "@material-ui/core": "^4.12.2",
-    "@material-ui/icons": "^4.11.2",
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^5.16.7",
+    "@mui/material": "^5.16.7",
+    "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -20,6 +23,7 @@
     "react-lottie": "^1.2.3",
     "react-reveal": "^1.2.2",
     "react-typed": "^1.2.0",
+    "sharp": "^0.33.4",
     "update-browserslist-db": "^1.1.0",
     "validator": "^13.6.0",
     "web-vitals": "^1.0.1"
@@ -48,6 +52,10 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-transform-class-properties": "^7.24.7",
+    "@babel/plugin-transform-nullish-coalescing-operator": "^7.24.7",
+    "@babel/plugin-transform-optional-chaining": "^7.24.8",
+    "@mui/codemod": "^5.15.14",
     "autoprefixer": "^10.4.13",
     "eslint": "^9.9.0",
     "postcss": "^8.4.19",

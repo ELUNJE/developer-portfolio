@@ -1,5 +1,5 @@
-import { Grid } from '@material-ui/core';
-import { makeStyles } from '@material-ui/core/styles';
+import { Grid } from '@mui/material';
+import makeStyles from '@mui/styles/makeStyles';
 import React, { useContext, useState } from 'react';
 import { AiOutlineHome } from "react-icons/ai";
 import { SingleProject } from '../../components';
@@ -33,7 +33,7 @@ function ProjectPage() {
             "&::placeholder": {
                 color: theme.tertiary,
             },
-            [t.breakpoints.down('sm')]: {
+            [t.breakpoints.down('lg')]: {
                 width: '350px',
             },
         },
@@ -54,7 +54,7 @@ function ProjectPage() {
                 color: theme.tertiary,
                 transform: 'scale(1.1)',
             },
-            [t.breakpoints.down('sm')]: {
+            [t.breakpoints.down('lg')]: {
                 fontSize: '1.8rem',
             },
         },
