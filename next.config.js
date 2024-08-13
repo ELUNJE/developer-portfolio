@@ -1,13 +1,21 @@
-const dotenv = require('dotenv')
-dotenv.config()
+const dotenv = require('dotenv');
+dotenv.config();
 
 const nextConfig = {
   reactStrictMode: true, // enabled react-strict mode
 
   images: {
-    domains: [
-      'i.ibb.co',
-      'ibb.co',
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'i.ibb.co',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'ibb.co',
+        pathname: '/**',
+      },
     ],
   },
 
